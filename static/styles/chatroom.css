@@ -1,0 +1,44 @@
+div.msg_box{
+    border: 2px solid green;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 10px;
+    vertical-align: top;
+    overflow: scroll;
+}  
+div{ 
+    display: inline-block; 
+    width: 500px;
+    height: 500px;
+    vertical-align: top;
+}
+form { 
+    position: relative;
+    top: 20px;
+}
+    form textarea{
+        border: 2px solid black;
+        border-radius: 20px;
+        font-size: 32px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        padding: 20px;
+        resize: none;
+        width: 400px;
+        height: 150px;
+    }
+    form input[type='submit']{
+        box-shadow: 10px 10px lightblue;
+        border-radius: 10px;
+        background-color: #28a745; 
+        color: white;
+        cursor: pointer;
+        font-size: 32px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        padding: 20px; 
+        position: relative;
+        top: 20px;
+    }
